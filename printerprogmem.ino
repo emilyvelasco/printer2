@@ -132,7 +132,7 @@ void printMessage() {
   digitalWrite(13, HIGH);
   for(int line = 0; line < num_lines; line++) { 
     for(int cursorPosition = 0; cursorPosition < charsPerLine; cursorPosition++) {
-    PROGMEM const byte character = message[line][cursorPosition];
+    const byte character = message[line][cursorPosition];
       printByte(character);
       delay(1);
     }
@@ -147,7 +147,7 @@ void printStartupMessage() {
   digitalWrite(13, HIGH);
   for(int line = 0; line < startup_num_lines; line++) { 
     for(int cursorPosition = 0; cursorPosition < startup_charsPerLine; cursorPosition++) {
-    PROGMEM const byte character = startup_message[line][cursorPosition];
+    const byte character = startup_message[line][cursorPosition];
       printByte(character);
       //      delay(1);
     }
