@@ -1,7 +1,10 @@
+#include <avr/pgmspace.h>
+
+
 
 const int startup_charsPerLine = 80;
 const int startup_num_lines = 5;
-PROGMEM const byte startup_message[startup_num_lines][startup_charsPerLine] = {
+const PROGMEM byte startup_message[startup_num_lines][startup_charsPerLine] = {
   "This is the startup message. It prints whenever",
   "the Arduino is reset.",
   "the Arduino is reset.",
@@ -12,7 +15,7 @@ PROGMEM const byte startup_message[startup_num_lines][startup_charsPerLine] = {
 
 const int charsPerLine = 80;   // this is the max # of chars per line
 const int num_lines = 11;
-PROGMEM const byte message[num_lines][charsPerLine] = {
+const PROGMEM  byte message[num_lines][charsPerLine] = {
   "    ",   // blank line
 "|-----------|",
 "| I         |",
@@ -132,7 +135,7 @@ void printMessage() {
   digitalWrite(13, HIGH);
   for(int line = 0; line < num_lines; line++) { 
     for(int cursorPosition = 0; cursorPosition < charsPerLine; cursorPosition++) {
-    const byte character = message[line][cursorPosition];
+    byte character = pgm_read_byte_near(&(message[line][cursorPosition]));
       printByte(character);
       delay(1);
     }
@@ -143,11 +146,11 @@ void printMessage() {
 }
 
 void printStartupMessage() {
-  Serial.println("Print start-up mssage");
+  //Serial.println("Print start-up mssage");
   digitalWrite(13, HIGH);
   for(int line = 0; line < startup_num_lines; line++) { 
     for(int cursorPosition = 0; cursorPosition < startup_charsPerLine; cursorPosition++) {
-    const byte character = startup_message[line][cursorPosition];
+    byte character = pgm_read_byte_near(&(startup_message[line][cursorPosition]));
       printByte(character);
       //      delay(1);
     }
