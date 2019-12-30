@@ -3,12 +3,9 @@
 
 
 const int startup_charsPerLine = 80;
-const int startup_num_lines = 5;
+const int startup_num_lines = 2;
 const PROGMEM byte startup_message[startup_num_lines][startup_charsPerLine] = {
   "This is the startup message. It prints whenever",
-  "the Arduino is reset.",
-  "the Arduino is reset.",
-  "the Arduino is reset.",
   "the Arduino is reset.",
   
 };
@@ -88,7 +85,7 @@ const int strobeWait = 2;   // microseconds to strobe for
 
 void setup() {
   Serial.begin(9600);
-
+  randomSeed(analogRead(0));
   pinMode(nStrobe, OUTPUT);      // is active LOW
   digitalWrite(nStrobe, HIGH);   // set HIGH
   pinMode(data_0, OUTPUT);
@@ -132,36 +129,39 @@ int randPrint = random(7);
   {
     case 0 :  resetPrinter();
               printMessage0();
+              Serial.println("0");
               resetPrinter();
               break;
     case 1 :  resetPrinter();
               printMessage1();
+              Serial.println("1");
               resetPrinter(); 
               break;
     case 2 :  resetPrinter();
               printMessage2();
+              Serial.println("2");
               resetPrinter();
               break; 
     case 3 :  resetPrinter();
               printMessage3();
+              Serial.println("3");
               resetPrinter();
               break;   
     case 4 :  resetPrinter();
               printMessage4();
+              Serial.println("4");
               resetPrinter();
               break;  
     case 5 :  resetPrinter();
               printMessage5();
+              Serial.println("5");
               resetPrinter();
               break;   
     case 6 :  resetPrinter();
               printMessage6();
+              Serial.println("6");
               resetPrinter();
-              break;  
-    default:  resetPrinter();
-              printMessage7();
-              resetPrinter();
-              break;               
+              break;                
   }
 }
 
