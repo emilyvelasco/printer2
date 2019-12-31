@@ -11,92 +11,222 @@ const PROGMEM byte startup_message[startup_num_lines][startup_charsPerLine] = {
 };
 
 const int charsPerLine0 = 80;   // this is the max # of chars per line
-const int num_lines0 = 27;
+const int num_lines0 = 63;
 const PROGMEM  byte message0[num_lines0][charsPerLine0] = {
 "      ",   // blank line
-"                 uuuuuuu",
-"             uu$$$$$$$$$$$uu",
-"          uu$$$$$$$$$$$$$$$$$uu",
-"         u$$$$$$$$$$$$$$$$$$$$$u",
-"        u$$$$$$$$$$$$$$$$$$$$$$$u",
-"       u$$$$$$$$$$$$$$$$$$$$$$$$$u",
-"       u$$$$$$$$$$$$$$$$$$$$$$$$$u",
-"       u$$$$$$\"   \"$$$\"   \"$$$$$$u",
-"       \"$$$$\"      u$u       $$$$\"",
-"        $$$u       u$u       u$$$",
-"        $$$u      u$$$u      u$$$",
-"         \"$$$$uu$$$   $$$uu$$$$\"",
-"          \"$$$$$$$\"   \"$$$$$$$\"",
-"            u$$$$$$$u$$$$$$$u",
-"             u$\"$\"$\"$\"$\"$\"$u",
-"  uuu        $$u$ $ $ $ $u$$       uuu",
-" u$$$$        $$$$$u$u$u$$$       u$$$$",
-"  $$$$$uu      \"$$$$$$$$$\"     uu$$$$$$",
-"u$$$$$$$$$$$uu    \"\"\"\"\"    uuuu$$$$$$$$$$",
-"$$$$\"\"\"$$$$$$$$$$uuu   uu$$$$$$$$$\"\"\"$$$\"",
-" \"\"\"      \"\"$$$$$$$$$$$uu \"\"$\"\"\"",
-"           uuuu \"\"$$$$$$$$$$uuu",
-"  u$$$uuu$$$$$$$$$uu \"\"$$$$$$$$$$$uuu$$$",
-"  $$$$$$$$$$\"\"\"\"           \"\"$$$$$$$$$$$\"",
-"   \"$$$$$\"                      \"\"$$$$\"\"",
-"     $$$\"                         $$$$\"",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"                                  uuuuuuu",
+"                              uu$$$$$$$$$$$uu",
+"                           uu$$$$$$$$$$$$$$$$$uu",
+"                          u$$$$$$$$$$$$$$$$$$$$$u",
+"                         u$$$$$$$$$$$$$$$$$$$$$$$u",
+"                        u$$$$$$$$$$$$$$$$$$$$$$$$$u",
+"                        u$$$$$$$$$$$$$$$$$$$$$$$$$u",
+"                        u$$$$$$\"   \"$$$\"   \"$$$$$$u",
+"                        \"$$$$\"      u$u       $$$$\"",
+"                         $$$u       u$u       u$$$",
+"                         $$$u      u$$$u      u$$$",
+"                          \"$$$$uu$$$   $$$uu$$$$\"",
+"                           \"$$$$$$$\"   \"$$$$$$$\"",
+"                             u$$$$$$$u$$$$$$$u",
+"                             u$\"$\"$\"$\"$\"$\"$u",
+"                   uuu        $$u$ $ $ $ $u$$       uuu",
+"                  u$$$$        $$$$$u$u$u$$$       u$$$$",
+"                   $$$$$uu      \"$$$$$$$$$\"     uu$$$$$$",
+"                 u$$$$$$$$$$$uu    \"\"\"\"\"    uuuu$$$$$$$$$$",
+"                 $$$$\"\"\"$$$$$$$$$$uuu   uu$$$$$$$$$\"\"\"$$$\"",
+"                  \"\"\"      \"\"$$$$$$$$$$$uu \"\"$\"\"\"",
+"                            uuuu \"\"$$$$$$$$$$uuu",
+"                   u$$$uuu$$$$$$$$$uu \"\"$$$$$$$$$$$uuu$$$",
+"                   $$$$$$$$$$\"\"\"\"           \"\"$$$$$$$$$$$\"",
+"                    \"$$$$$\"                      \"\"$$$$\"\"",
+"                      $$$\"                         $$$$\"",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 const int charsPerLine1 = 80;   // this is the max # of chars per line
-const int num_lines1 = 19;
+const int num_lines1 = 63;
 const PROGMEM  byte message1[num_lines1][charsPerLine1] = {
 "      ",   // blank line
-"  =================================",
-" /\\                              \\",
-"/++\\    ==========================\\",
-"\\+++\\   \\ ************************/",
-" \\+++\\   \\=================== ***/",
-"  \\+++\\   \\             /+++/***/",
-"   \\+++\\   \\           /+++/***/",
-"    \\+++\\   \\         /+++/***/",
-"     \\+++\\   \\       /+++/***/",
-"      \\+++\\   \\     /+++/***/",
-"       \\+++\\   \\   /+++/***/",
-"        \\+++\\   \\ /+++/***/",
-"         \\+++\\   /+++/***/",
-"          \\+++\\ /+++/***/",
-"           \\+++++++/***/",
-"            \\+++++/***/",
-"             \\+++/***/",
-"              \\+/===/",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"     ================================",
+"    /\\                              \\",
+"   /++\\    ==========================\\",
+"   \\+++\\   \\ ************************/",
+"    \\+++\\   \\=================== ***/",
+"     \\+++\\   \\             /+++/***/",
+"      \\+++\\   \\           /+++/***/",
+"       \\+++\\   \\         /+++/***/",
+"        \\+++\\   \\       /+++/***/",
+"         \\+++\\   \\     /+++/***/",
+"          \\+++\\   \\   /+++/***/",
+"           \\+++\\   \\ /+++/***/",
+"            \\+++\\   /+++/***/",
+"             \\+++\\ /+++/***/",
+"              \\+++++++/***/",
+"               \\+++++/***/",
+"                \\+++/***/",
+"                 \\+/===/",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 const int charsPerLine2 = 80;   // this is the max # of chars per line
-const int num_lines2 = 22;
+const int num_lines2 = 63;
 const PROGMEM  byte message2[num_lines2][charsPerLine2] = {
 "      ",   // blank line
-"                         .sssssssss.",
-"                   .sssssssssssssssssss",
-"                 sssssssssssssssssssssssss",
-"                ssssssssssssssssssssssssssss",
-"                 @@sssssssssssssssssssssss@ss",
-"                 |s@@@@sssssssssssssss@@@@s|s",
-"          =======|sssss@@@@@sssss@@@@@sssss|s",
-"        /         sssssssss@sssss@sssssssss|s",
-"       /  .------+.ssssssss@sssss@ssssssss.|",
-"      /  /       |...sssssss@sss@sssssss...|",
-"     |  |        |.......sss@sss@ssss......|",
-"     |  |        |..........s@ss@sss.......|",
-"     |  |        |...........@ss@..........|",
-"      \\  \\       |............ss@..........|",
-"       \\  '------+...........ss@...........|",
-"       \\======== .........................|",
-"                 |.........................|",
-"                /...........................\\",
-"               |.............................|",
-"                  |.......................|",
-"                      |...............|",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"                     .sssssssss.",
+"                 .sssssssssssssssssss",
+"               sssssssssssssssssssssssss",
+"             ssssssssssssssssssssssssssss",
+"             @@sssssssssssssssssssssss@ss",
+"             |s@@@@sssssssssssssss@@@@s|s",
+"      =======|sssss@@@@@sssss@@@@@sssss|s",
+"    /         sssssssss@sssss@sssssssss|s",
+"   /  .------+.ssssssss@sssss@ssssssss.|",
+"  /  /       |...sssssss@sss@sssssss...|",
+" |  |        |.......sss@sss@ssss......|",
+" |  |        |..........s@ss@sss.......|",
+" |  |        |...........@ss@..........|",
+"  \\  \\       |............ss@..........|",
+"   \\  '------+...........ss@...........|",
+"     \\=========.........................|",
+"             |.........................|",
+"            /...........................\\",
+"             |.............................|",
+"               |.......................|",
+"                  |...............|",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 const int charsPerLine3 = 80;   // this is the max # of chars per line
-const int num_lines3 = 34;
+const int num_lines3 = 63;
 const PROGMEM  byte message3[num_lines3][charsPerLine3] = {
-  "    ",   // blank line
+"    ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 "                          iWs                                 ,W[",
 "                          W@@W.                              g@@[",
 "                         i@@@@@s                           g@@@@W",
@@ -130,13 +260,35 @@ const PROGMEM  byte message3[num_lines3][charsPerLine3] = {
 "                            'V=_          -@@D         ,gY~ '",
 "                                ~\\=__.           ,__z=~`",
 "                                       '~~~*==Y*f~~~\",     ",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 
 const int charsPerLine4 = 80;   // this is the max # of chars per line
-const int num_lines4 = 49;
+const int num_lines4 = 63;
 const PROGMEM  byte message4[num_lines4][charsPerLine4] = {
   "    ",   // blank line
+  "      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 "                         8888  8888888",
 "                         8888  8888888",
 "                  888888888888888888888888",
@@ -185,12 +337,37 @@ const PROGMEM  byte message4[num_lines4][charsPerLine4] = {
 "| $$      | $$  | $$| $$            | $$\\  $$$| $$  | $$",
 "| $$$$$$$$|  $$$$$$/| $$$$$$$$      | $$ \\  $$|  $$$$$$/",
 "|________/ \\______/ |________/      |__/  \\__/ \\______/", 
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 const int charsPerLine5 = 80;   // this is the max # of chars per line
-const int num_lines5 = 27;
+const int num_lines5 = 63;
 const PROGMEM  byte message5[num_lines5][charsPerLine5] = {
 "    ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 "                                                                            ",
 "                                                                            ", 
 "                     xxxxxxxxxx                                             ",
@@ -216,13 +393,44 @@ const PROGMEM  byte message5[num_lines5][charsPerLine5] = {
 "                         ''MMMMmm              _,mMMMM'''                   ",
 "                               ''MMMMMMMMMMMMM'''                           ",
 "                                                                            ",
-"                                                                           ,",
+"                                                                            ",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 const int charsPerLine6 = 80;   // this is the max # of chars per line
-const int num_lines6 = 37;
+const int num_lines6 = 63;
 const PROGMEM  byte message6[num_lines6][charsPerLine6] = {
   "    ",   // blank line
+  "      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 "                          .,aad88888888888baa,.",
 "                     ,ad8888888888888888888888888ba,.",
 "                 ,ad888888888888888888888888888888888ba,",
@@ -241,8 +449,8 @@ const PROGMEM  byte message6[num_lines6][charsPerLine6] = {
 "888888'       ,8' ,8'        \"Y88888b,,ad8\"\"   `Y888888888P         )88888)",
 "888888        8)  8)           \"Y888888\"        (8888888\"\"          (88888)",
 "888888        8,  8,          ,ad8Y88888b,      d888\"\"              d88888)",
-"888888        `8, `8,     ,ad8\"\"   \"Y88888b,,ad8\"\"                  888888)",
-"888888         `8, `\" ,ad8\"\"         \"Y88888b\"                     ,888888'",
+"888888        `8, `8,     ,ad8\"\"   \"Y88888b,,ad8\"\"                  888888",
+"888888         `8, `\" ,ad8\"\"         \"Y88888b\"                     ,888888",
 "Y88888,           ,gPPR8b           ,ad8Y88888b,                   d888888",
 "`88888b          dP:::::Yb      ,ad8\"\"   \"Y88888b,                ,888888P",
 " 888888,         8):::::(8  ,ad8\"\"         \"Y88888b,              d888888'",
@@ -259,6 +467,19 @@ const PROGMEM  byte message6[num_lines6][charsPerLine6] = {
 "                   \"Y8888888888888888888888888888888\"\"", 
 "                       \"\"Y888888888888888888888P\"\"",     
 "                              \"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
+"      ",   // blank line
 };
 
 
