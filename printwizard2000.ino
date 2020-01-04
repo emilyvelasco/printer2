@@ -11,7 +11,7 @@ const PROGMEM byte startup_message[startup_num_lines][startup_charsPerLine] = {
 };
 
 const int charsPerLine0 = 80;   // this is the max # of chars per line
-const int num_lines0 = 29;
+const int num_lines0 = 29;  // this is the number of lines in the array
 const PROGMEM  byte message0[num_lines0][charsPerLine0] = {
 "      ",   // blank line
 "      ",   // blank line
@@ -436,7 +436,7 @@ while(digitalRead(14) == HIGH) {
    // wait
 }
 
-int randPrint = random(10);
+int randPrint = random(10); //this randomizes which piece of art prints when the button (on pin 14) is pressed 
   switch(randPrint)
   {
     case 0 :  resetPrinter();
