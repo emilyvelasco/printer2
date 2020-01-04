@@ -5,31 +5,14 @@
 const int startup_charsPerLine = 80;
 const int startup_num_lines = 2;
 const PROGMEM byte startup_message[startup_num_lines][startup_charsPerLine] = {
-  "                        Welcome to PrintWizard 2000!",
-  "                       Press 'PRINT' to receive art!",
+  "    ",
+
   
 };
 
 const int charsPerLine0 = 80;   // this is the max # of chars per line
-const int num_lines0 = 63;
+const int num_lines0 = 29;
 const PROGMEM  byte message0[num_lines0][charsPerLine0] = {
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 "      ",   // blank line
 "      ",   // blank line
 "                                  uuuuuuu",
@@ -58,49 +41,11 @@ const PROGMEM  byte message0[num_lines0][charsPerLine0] = {
 "                   $$$$$$$$$$\"\"\"\"           \"\"$$$$$$$$$$$\"",
 "                    \"$$$$$\"                      \"\"$$$$\"\"",
 "                      $$$\"                         $$$$\"",
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
 const int charsPerLine1 = 80;   // this is the max # of chars per line
-const int num_lines1 = 63;
+const int num_lines1 = 25;
 const PROGMEM  byte message1[num_lines1][charsPerLine1] = {
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 "      ",   // blank line
 "      ",   // blank line
 "     ================================",
@@ -121,50 +66,11 @@ const PROGMEM  byte message1[num_lines1][charsPerLine1] = {
 "               \\+++++/***/",
 "                \\+++/***/",
 "                 \\+/===/",
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
 const int charsPerLine2 = 80;   // this is the max # of chars per line
-const int num_lines2 = 63;
+const int num_lines2 = 24;
 const PROGMEM  byte message2[num_lines2][charsPerLine2] = {
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 "      ",   // blank line
 "      ",   // blank line
 "                     .sssssssss.",
@@ -188,43 +94,11 @@ const PROGMEM  byte message2[num_lines2][charsPerLine2] = {
 "             |.............................|",
 "               |.......................|",
 "                  |...............|",
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
 const int charsPerLine3 = 80;   // this is the max # of chars per line
-const int num_lines3 = 63;
+const int num_lines3 = 35;
 const PROGMEM  byte message3[num_lines3][charsPerLine3] = {
-"    ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 "      ",   // blank line
 "      ",   // blank line
 "                          iWs                                 ,W[",
@@ -260,33 +134,12 @@ const PROGMEM  byte message3[num_lines3][charsPerLine3] = {
 "                            'V=_          -@@D         ,gY~ '",
 "                                ~\\=__.           ,__z=~`",
 "                                       '~~~*==Y*f~~~\",     ",
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
 
 const int charsPerLine4 = 80;   // this is the max # of chars per line
-const int num_lines4 = 63;
+const int num_lines4 = 41;
 const PROGMEM  byte message4[num_lines4][charsPerLine4] = {
-  "    ",   // blank line
-  "      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 "      ",   // blank line
 "      ",   // blank line
 "                         8888  8888888",
@@ -328,48 +181,13 @@ const PROGMEM  byte message4[num_lines4][charsPerLine4] = {
 "    88888M:::::88:M::::::::::8:::::::::::M:::8888::::::M::M",
 "   88 888MM:::888:M:::::::::::::::::::::::M:8888:::::::::M:",
 "   8 88888M:::88::M:::::::::::::::::::::::MM:88::::::::::::M",
-"  ",
-" /$$        /$$$$$$  /$$             /$$   /$$  /$$$$$$ ",
-"| $$       /$$__  $$| $$            | $$$ | $$ /$$__  $$",
-"| $$      | $$  \\ $$| $$            | $$$$| $$| $$  \\ $$",
-"| $$      | $$  | $$| $$            | $$ $$ $$| $$  | $$",
-"| $$      | $$  | $$| $$            | $$  $$$$| $$  | $$",
-"| $$      | $$  | $$| $$            | $$\\  $$$| $$  | $$",
-"| $$$$$$$$|  $$$$$$/| $$$$$$$$      | $$ \\  $$|  $$$$$$/",
-"|________/ \\______/ |________/      |__/  \\__/ \\______/", 
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
 const int charsPerLine5 = 80;   // this is the max # of chars per line
-const int num_lines5 = 63;
+const int num_lines5 = 24;
 const PROGMEM  byte message5[num_lines5][charsPerLine5] = {
-"    ",   // blank line
 "      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"                                                                            ",
-"                                                                            ", 
+"      ",   // blank line                                                                        ", 
 "                     xxxxxxxxxx                                             ",
 "               MWMWMWWMWMWMWMWMWMWMWMWMW                                    ",
 "           IIIIMWMWMWMWMWMWMWMWMWMWMWMWMWMttii                              ",
@@ -392,43 +210,11 @@ const PROGMEM  byte message5[num_lines5][charsPerLine5] = {
 "                    ''MMmm            WWWWWWW         ,miMM'''    ''`       ",
 "                         ''MMMMmm              _,mMMMM'''                   ",
 "                               ''MMMMMMMMMMMMM'''                           ",
-"                                                                            ",
-"                                                                            ",
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
 const int charsPerLine6 = 80;   // this is the max # of chars per line
-const int num_lines6 = 63;
+const int num_lines6 = 38;
 const PROGMEM  byte message6[num_lines6][charsPerLine6] = {
-  "    ",   // blank line
-  "      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 "      ",   // blank line
 "      ",   // blank line
 "                          .,aad88888888888baa,.",
@@ -467,21 +253,131 @@ const PROGMEM  byte message6[num_lines6][charsPerLine6] = {
 "                   \"Y8888888888888888888888888888888\"\"", 
 "                       \"\"Y888888888888888888888P\"\"",     
 "                              \"\"\"\"\"\"\"\"\"\"\"\"\"\"",
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
-"      ",   // blank line
 };
 
+const int charsPerLine7 = 80;   // this is the max # of chars per line
+const int num_lines7 = 51;
+const PROGMEM  byte message7[num_lines7][charsPerLine7] = {
+"      ",   // blank line
+"      ",   // blank line
+"                                 ,d8b,",
+"                         _,,aadd8888888bbaa,,_",
+"                    _,ad88P\"\"\"8,  I8I  ,8\"\"\"Y88ba,_",
+"                 ,ad88P\" `Ya  `8, `8' ,8'  aP' \"Y88ba,",
+"               ,d8\"' \"Yb   \"b, `b  8  d' ,d\"   dP\" `\"8b,",
+"              dP\"Yb,  `Yb,  `8, 8  8  8 ,8'  ,dP'  ,dP\"Yb",
+"           ,ad8b, `Yb,  \"Ya  `b Y, 8 ,P d'  aP\"  ,dP' ,d8ba,",
+"          dP\" `Y8b, `Yb, `Yb, Y,`8 8 8',P ,dP' ,dP' ,d8P' \"Yb",
+"         ,88888888Yb, `Yb,`Yb,`8 8 8 8 8',dP',dP' ,dY88888888,",
+"         dP     `Yb`Yb, Yb,`8b 8 8 8 8 8 d8',dP ,dP'dP'     Yb",
+"        ,8888888888b \"8, Yba888888888888888adP ,8\" d8888888888,",
+"        dP        `Yb,`Y8P\"\"'             `\"\"Y8P',dP'        Yb",
+"       ,88888888888P\"Y8P'_.---.._     _..---._`Y8P\"Y88888888888,",
+"       dP         d'  8 '  ____  `. .'  ____  ` 8  `b         Yb",
+"      ,888888888888   8   <(@@)>  | |  <(@@)>   8   888888888888,",
+"      dP          8   8    `\"\"\"         \"\"\"'    8   8          Yb",
+"     ,8888888888888,  8          ,   ,          8  ,8888888888888,",
+"     dP           `b  8,        (.-_-.)        ,8  d'           Yb",
+"    ,88888888888888Yaa8b      .'       `.      d8aaP88888888888888,",
+"    dP               \"\"8b     _,gd888bg,_     d8\"\"               Yb",
+"   ,888888888888888888888b,    \"\"Y888P\"\"    ,d888888888888888888888,",
+"   dP                   \"8\"b,             ,d\"8\"                   Yb",
+"  ,888888888888888888888888,\"Ya,_,ggg,_,aP\",888888888888888888888888,",
+"  dP                      \"8,  \"8\"\\x/\"8\"  ,8\"                      Yb",
+" ,88888888888888888888888888b   8\\x//8   d88888888888888888888888888,",
+" 8888bgg,_                  8   8\\x//8   8                  _,ggd8888",
+"  `\"Yb, \"\"8888888888888888888   Y\\\\x//P   8888888888888888888\"\" ,dP\"'",
+"    _d8bg,_\"8,              8   `b\\x/d'   8              ,8\"_,gd8b_",
+"  ,iP\"   \"Yb,8888888888888888    8\\x/8    8888888888888888,dP\"  `\"Yi,",
+" ,P\"    __,888              8    8\\x/8    8              888,__    \"Y,",
+",8baaad8P\"\":Y8888888888888888 aaa8\\x/8aaa 8888888888888888P:\"\"Y8baaad8,",
+"dP]\"':::::::::8              8 8::8\\x/8::8 8              8:::::::::`\"Yb",
+"8::::::::::::8888888888888888 8::88888::8 8888888888888888::::::::::::8",
+"8::::::::::::8,             8 8:::::::::8 8             ,8::::::::::::8",
+"8::::::::::::8888888888888888 8:::::::::8 8888888888888888::::::::::::8",
+"8::::::::::::Ya             8 8:::::::::8 8             aP::::::::::::8",
+"8:::::::::::::888888888888888 8:::::::::8 888888888888888:::::::::::::8",
+"8:::::::::::::Ya            8 8:::::::::8 8            aP:::::::::::::8",
+"Ya:::::::::::::88888888888888 8:::::::::8 88888888888888:::::::::::::aP",
+"`8;:::::::::::::Ya,         8 8:::::::::8 8         ,aP:::::::::::::;8'",
+" Ya:::::::::::::::\"Y888888888 8:::::::::8 888888888P\":::::::::::::::aP",
+" `8;::::::::::::::::::::\"\"\"\"Y8888888888888P\"\"\"\"::::::::::::::::::::;8'",
+"  Ya:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::aP",
+"   \"b;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;d\"",
+"    `Ya;:::::::::::::::::::::::::::::::::::::::::::::::::::::::;aP'",
+"      `Ya;:::::::::::::::::::::::::::::::::::::::::::::::::::;aP'",
+"         \"Ya;:::::::::::::::::::::::::::::::::::::::::::::;aP\"",
+"            \"Yba;;;:::::::::::::::::::::::::::::::::;;;adP\"",
+"                `\"\"\"\"\"\"\"Y888888888888888888888P\"\"\"\"\"\"\"'",
+};
+
+const int charsPerLine8 = 80;   // this is the max # of chars per line
+const int num_lines8 = 26;
+const PROGMEM  byte message8[num_lines8][charsPerLine8] = {
+"      ",   // blank line
+"      ",   // blank line
+"                .,aadd\"'    `\"bbaa,.",
+"            ,ad8888P'          `Y8888ba,",
+"         ,a88888888              88888888a,",
+"       a88888888888              88888888888a",
+"     a8888888888888b,          ,d8888888888888a",
+"    d8888888888888888b,_    _,d8888888888888888b",
+"   d88888888888888888888888888888888888888888888b",
+"  d8888888888888888888888888888888888888888888888b",
+" I888888888888888888888888888888888888888888888888I",
+",88888888888888888888888888888888888888888888888888,",
+"I8888888888888888PY8888888PY88888888888888888888888I",
+"8888888888888888\"  \"88888\"  \"88888888888888888888888",
+"8::::::::::::::'    `:::'    `:::::::::::::::::::::8",
+"Ib:::::::::::\"        \"        `::::::' `:::::::::dI",
+"`8888888888P            Y88888888888P     Y88888888'",
+" Ib:::::::'              `:::::::::'       `:::::dI",
+"  Yb::::\"                  \":::::\"           \"::dP",
+"   Y88P                      Y8P               `P",
+"    Y'                        \"                 ",
+"                                `:::::::::::;8\"",
+"       \"888888888888888888888888888888888888\"",
+"         `\"8;::::::::::::::::::::::::::;8\"'",
+"            `\"Ya;::::::::::::::::::;aP\"'",
+"                ``\"\"YYbbaaaaddPP\"\"''",
+};
+
+
+const int charsPerLine9 = 80;   // this is the max # of chars per line
+const int num_lines9 = 32;
+const PROGMEM  byte message9[num_lines9][charsPerLine9] = {
+"      ",   // blank line
+"      ",   // blank line
+"                       .,,uod8B8bou,,.",
+"              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.",
+"         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||",
+"         !...:!TVBBBRPFT||||||||||!!^^\"\"'   ||||",
+"         !.......:!?|||||!!^^\"\"'            ||||",
+"         !.........||||                     ||||",
+"         !.........||||  ##                 ||||",
+"         !.........||||                     ||||",
+"         !.........||||                     ||||",
+"         !.........||||                     ||||",
+"         !.........||||                     ||||",
+"         `.........||||                    ,||||",
+"          .;.......||||               _.-!!|||||",
+"   .,uodWBBBBb.....||||       _.-!!|||||||||!:'",
+"!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....",
+"!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.",
+"!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.",
+"!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^\"`;:::       `.",
+"!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.",
+"`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.",
+"  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'",
+"    `........::::::::::::::::;iof688888888888888888888b.     `",
+"      `......:::::::::;iof688888888888888888888888888888b.",
+"        `....:::;iof688888888888888888888888888888888899fT!",
+"          `..::!8888888888888888888888888888888899fT|!^\"'",
+"            `' !!988888888888888888888888899fT|!^\"'",
+"                `!!8888888888888888899fT|!^\"'",
+"                  `!988888888899fT|!^\"'",
+"                    `!9899fT|!^\"'",
+};
 
 // parallel port pin# = arduino pin#
 const int nStrobe = 2;
@@ -501,7 +397,7 @@ const int strobeWait = 2;   // microseconds to strobe for
 
 void setup() {
   Serial.begin(9600);
-  randomSeed(analogRead(0));
+  randomSeed(analogRead(1));
   pinMode(nStrobe, OUTPUT);      // is active LOW
   digitalWrite(nStrobe, HIGH);   // set HIGH
   pinMode(data_0, OUTPUT);
@@ -540,7 +436,7 @@ while(digitalRead(14) == HIGH) {
    // wait
 }
 
-int randPrint = random(7);
+int randPrint = random(10);
   switch(randPrint)
   {
     case 0 :  resetPrinter();
@@ -577,7 +473,22 @@ int randPrint = random(7);
               printMessage6();
               Serial.println("6");
               resetPrinter();
-              break;                
+              break;  
+    case 7 :  resetPrinter();
+              printMessage7();
+              Serial.println("7");
+              resetPrinter();
+              break;   
+    case 8 :  resetPrinter();
+              printMessage8();
+              Serial.println("8");
+              resetPrinter();
+              break;      
+    case 9 :  resetPrinter();
+              printMessage9();
+              Serial.println("9");
+              resetPrinter();
+              break;                                         
   }
 }
 
@@ -709,6 +620,48 @@ void printMessage6() {
   for(int line = 0; line < num_lines6; line++) { 
     for(int cursorPosition = 0; cursorPosition < charsPerLine6; cursorPosition++) {
     byte character = pgm_read_byte_near(&(message6[line][cursorPosition]));
+      printByte(character);
+      delay(1);
+    }
+    printByte(10); // new line
+    printByte(13); // carriage return
+  }
+  digitalWrite(13,LOW);
+}
+
+void printMessage7() {
+  digitalWrite(13, HIGH);
+  for(int line = 0; line < num_lines7; line++) { 
+    for(int cursorPosition = 0; cursorPosition < charsPerLine7; cursorPosition++) {
+    byte character = pgm_read_byte_near(&(message7[line][cursorPosition]));
+      printByte(character);
+      delay(1);
+    }
+    printByte(10); // new line
+    printByte(13); // carriage return
+  }
+  digitalWrite(13,LOW);
+}
+
+void printMessage8() {
+  digitalWrite(13, HIGH);
+  for(int line = 0; line < num_lines8; line++) { 
+    for(int cursorPosition = 0; cursorPosition < charsPerLine8; cursorPosition++) {
+    byte character = pgm_read_byte_near(&(message8[line][cursorPosition]));
+      printByte(character);
+      delay(1);
+    }
+    printByte(10); // new line
+    printByte(13); // carriage return
+  }
+  digitalWrite(13,LOW);
+}
+
+void printMessage9() {
+  digitalWrite(13, HIGH);
+  for(int line = 0; line < num_lines9; line++) { 
+    for(int cursorPosition = 0; cursorPosition < charsPerLine9; cursorPosition++) {
+    byte character = pgm_read_byte_near(&(message9[line][cursorPosition]));
       printByte(character);
       delay(1);
     }
